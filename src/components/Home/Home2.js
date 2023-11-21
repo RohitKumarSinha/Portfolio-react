@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import { PiMediumLogoFill } from "react-icons/pi";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -12,44 +13,38 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
-      <Container>
+      <Container>https://medium.com/@sinharohit3333
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+                Hey there! I'm Rohit Kumar Sinha, a software engineer working at <b className="purple">Josh software</b> diving into clouds, data engineering, React, and even testing for a while 🤷‍♂️
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> C++, Javascript, Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My portfolio's a peek into my tech adventures &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
+                <b className="purple">where challenges met innovation, and each project fueled my passion 
                 </b>
+                &nbsp; for pushing tech boundaries. 
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Exploring the endless possibilities of technology fuels my passion driving me to
+              with <b className="purple">innovate and create solutions</b> that make a
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                   meaningful impact
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              &nbsp; in the digital world.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +62,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/RohitKumarSinha"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +72,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/rohit-kumar-sinha-115a92189/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,14 +80,16 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              {/* <i class="fa-brands fa-medium"></i> */}
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://medium.com/@sinharohit3333"
                   target="_blank"
                   rel="noreferrer"
+                  
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <PiMediumLogoFill />
                 </a>
               </li>
             </ul>
