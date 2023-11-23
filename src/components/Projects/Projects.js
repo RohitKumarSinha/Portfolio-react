@@ -4,10 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import GithubFinder from "../../Assets/Projects/GitHubFinder.png";
 import Ecommerce from "../../Assets/Projects/Ecommerce.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import Resturant from "../../Assets/Projects/ResturantPage.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
+
 
 function Projects() {
   return (
