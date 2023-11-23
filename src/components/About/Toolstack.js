@@ -1,18 +1,13 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
-} from "react-icons/si";
+import { SiVisualstudiocode, SiPostman, SiSlack } from "react-icons/si";
 import { DiUbuntu } from "react-icons/di";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-      <DiUbuntu />
+        <DiUbuntu />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />

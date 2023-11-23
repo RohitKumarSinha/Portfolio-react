@@ -1,10 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { PiMediumLogoFill } from "react-icons/pi";
 
@@ -26,7 +22,7 @@ function Footer() {
               <a
                 href="https://github.com/RohitKumarSinha"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -36,7 +32,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/rohit-kumar-sinha-115a92189/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -46,7 +42,7 @@ function Footer() {
               <a
                 href="https://medium.com/@sinharohit3333"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <PiMediumLogoFill />
