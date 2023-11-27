@@ -47,9 +47,8 @@ function Certifications() {
               imgPath={CoadingNinjaCplusplus}
               isBlog={false}
               title="Introduction to C++"
-              description="This restaurant's webpage looks awesome! It's made using HTML5, CSS, JavaScript, React, Axios, and Bootstrap. It's like a beautiful picture that shows you what the restaurant is like. You can explore and see what's there before actually going. It works well on phones too!"
-              ghLink="https://github.com/RohitKumarSinha/react/tree/master/resturant"
-              demoLink="https://resutrant-app.netlify.app/"              
+              description="In Coding Ninjas' C++ course, You'll I learned about c++ syntax, oops concept, make some fun project in c++, know how C++ work under the hood"
+              demoLink="https://certificate.codingninjas.com/verify/189721dfdc042641"              
             />
           </Col>
         </Row>
