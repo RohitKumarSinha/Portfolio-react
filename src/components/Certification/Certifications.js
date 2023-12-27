@@ -4,7 +4,7 @@ import CertificationCards from "./CertificationCards";
 import Particle from "../Particle";
 import GoogleCloudBigData from "../../Assets/Certificates/GoogleCloud_Certificate.jpg";
 import CoadingNinjaDataStructure from "../../Assets/Certificates/DataStructure_Certificate.jpg";
-import CoadingNinjaCplusplus from "../../Assets/Certificates/CPlusPlus_Certificate.jpg";
+import IBM_ETL_DataPipeline from "../../Assets/Certificates/IBM_ETL_DataPipeline.jpg";
 
 
 
@@ -33,22 +33,22 @@ function Certifications() {
 
           <Col md={4} className="project-card">
             <CertificationCards
-              imgPath={CoadingNinjaDataStructure}
+              imgPath={IBM_ETL_DataPipeline}
               isBlog={false}
-              title="Data Structures In C++"
-              description="
-              In this Coding Ninjas' C++ data structures course I learn about arrays, linked lists, stacks, queues, trees, heaps, and graphs. Through practical exercises and problem-solving, I learn implementation, algorithms, and C++ features. Emphasizing hands-on learning, I ensures a solid understanding of data structures' application in C++ programming."
-              demoLink="https://certificate.codingninjas.com/verify/74490f29db6c077b"
+              title="ETL and Data Pipelines with Shell, Airflow and Kafka"
+              description="The IBM ETL and Data Pipelines course explore effective data extraction, transformation, and loading using Shell scripting, Apache Airflow, and Kafka, fostering robust data processing pipelines."
+              demoLink="https://coursera.org/share/9c91a6fa6caf17ce612efe20c02a69e5"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <CertificationCards
-              imgPath={CoadingNinjaCplusplus}
+              imgPath={CoadingNinjaDataStructure}
               isBlog={false}
-              title="Introduction to C++"
-              description="In Coding Ninjas' C++ course, You'll I learned about c++ syntax, oops concept, make some fun project in c++, know how C++ work under the hood"
-              demoLink="https://certificate.codingninjas.com/verify/189721dfdc042641"              
+              title="Data Structures In C++"
+              description="
+              In this Coding Ninjas' C++ data structures course I learn about arrays, linked lists, stacks, queues, trees, heaps, and graphs. Through practical exercises and problem-solving, I learn implementation, algorithms, and C++ features. Emphasizing hands-on learning, I ensures a solid understanding of data structures' application in C++ programming."
+              demoLink="https://certificate.codingninjas.com/verify/74490f29db6c077b"              
             />
           </Col>
         </Row>
