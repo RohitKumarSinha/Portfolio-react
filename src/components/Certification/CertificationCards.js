@@ -5,7 +5,7 @@ import { CgWebsite } from "react-icons/cg";;
 
 function CertificationCards(props) {
   return (
-    <Card className="project-card-view">
+    <Card className="project-card-view" style={{ display: "flex", flexDirection: "column", height: "100%" }}>
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
@@ -19,14 +19,13 @@ function CertificationCards(props) {
 
         {!props.isBlog && props.demoLink && (
           <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"View Certificate"}
-          </Button>
+          variant="primary"
+          href={props.demoLink}
+          target="_blank"
+          style={{ marginLeft: "10px", marginTop: "auto" }}
+        >
+          <CgWebsite /> &nbsp; View Certificate
+        </Button>
         )}
       </Card.Body>
     </Card>

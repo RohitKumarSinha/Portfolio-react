@@ -3,10 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import CertificationCards from "./CertificationCards";
 import Particle from "../Particle";
 import GoogleCloudBigData from "../../Assets/Certificates/GoogleCloud_Certificate.jpg";
-import CoadingNinjaDataStructure from "../../Assets/Certificates/DataStructure_Certificate.jpg";
-import IBM_ETL_DataPipeline from "../../Assets/Certificates/IBM_ETL_DataPipeline.jpg";
-
-
+import AWS_CloudPratice from "../../Assets/Certificates/AWS_CloudPratice.jpg";
+import JAVASCRIPT_ADVANCE from "../../Assets/Certificates/JAVASCRIPT_ADVANCE.jpg";
+import JAVASCRIPT_BASIC from "../../Assets/Certificates/JAVASCRIPT_BASIC.jpg";
+import REACT from "../../Assets/Certificates/REACT.jpg";
+import NODEJS from "../../Assets/Certificates/NODEJS.jpg";
 
 function Certifications() {
   return (
@@ -14,7 +15,7 @@ function Certifications() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My  <strong className="purple">Certificate </strong>
+          My <strong className="purple">Certificate </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are my few Certificate Which I done Recently
@@ -25,30 +26,58 @@ function Certifications() {
               imgPath={GoogleCloudBigData}
               isBlog={false}
               title="Google Cloud Big Data and Machine Learning Fundamentals"
-              description="
-              The course spanned Google Cloud's data-to-AI journey, emphasizing infrastructure layers, BigQuery analytics, diverse ML model creation methods, and Vertex AI's unified platform. In this course I learned about streaming data engineering, varied ML deployment choices, and a structured ML workflow."
+              description="This certification covers Google Cloud’s data-to-AI workflow, infrastructure layers, and analytics using BigQuery. It also covers machine learning deployment, Vertex AI, streaming data processing, and a structured ML workflow."
               demoLink="https://coursera.org/share/8183da19b56fea0c26e8251c9c3316d9"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <CertificationCards
-              imgPath={IBM_ETL_DataPipeline}
+              imgPath={AWS_CloudPratice}
               isBlog={false}
-              title="ETL and Data Pipelines with Shell, Airflow and Kafka"
-              description="The IBM ETL and Data Pipelines course explore effective data extraction, transformation, and loading using Shell scripting, Apache Airflow, and Kafka, fostering robust data processing pipelines."
-              demoLink="https://coursera.org/share/9c91a6fa6caf17ce612efe20c02a69e5"
+              title="AWS Certification"
+              description="This certification covers AWS IAM, EC2, Load Balancing, Auto Scaling, RDS, DynamoDB, and S3. It explores analytics services like Redshift and Athena, machine learning services like SageMaker, and security best practices with IAM policies, KMS, and Cognito."
+              demoLink="https://udemy-certificate.s3.amazonaws.com/image/UC-df15318f-cd45-497d-8c8c-939ac7b9c50f.jpg"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <CertificationCards
-              imgPath={CoadingNinjaDataStructure}
+              imgPath={JAVASCRIPT_BASIC}
               isBlog={false}
-              title="Data Structures In C++"
-              description="
-              In this Coding Ninjas' C++ data structures course I learn about arrays, linked lists, stacks, queues, trees, heaps, and graphs. Through practical exercises and problem-solving, I learn implementation, algorithms, and C++ features. Emphasizing hands-on learning, I ensures a solid understanding of data structures' application in C++ programming."
-              demoLink="https://certificate.codingninjas.com/verify/74490f29db6c077b"              
+              title="JavaScript Under the Hood Certification"
+              description="This certification explores JavaScript fundamentals, debugging, closures, prototypal inheritance, best coding practices, and building JavaScript frameworks. It enhances understanding of JavaScript's internal workings and execution model."
+              demoLink="https://udemy-certificate.s3.amazonaws.com/image/UC-RSGUU05U.jpg"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <CertificationCards
+              imgPath={JAVASCRIPT_ADVANCE}
+              isBlog={false}
+              title="JavaScript Certification"
+              description="This certification covers JavaScript fundamentals, data structures, DOM manipulation, OOP, async programming, error handling, web APIs, modules, tooling, and unit testing. It ensures proficiency in modern JavaScript development."
+              demoLink="https://udemy-certificate.s3.amazonaws.com/image/UC-72F4T9RZ.jpg"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <CertificationCards
+              imgPath={REACT}
+              isBlog={false}
+              title="React Certification"
+              description="This certification covers React fundamentals, hooks, context API, JWT authentication, Redux, and state management. It emphasizes building scalable front-end applications with best practices and performance optimization."
+              demoLink="https://udemy-certificate.s3.amazonaws.com/image/UC-135806d5-491d-48cc-a043-ac3846ba200c.jpg"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <CertificationCards
+              imgPath={NODEJS}
+              isBlog={false}
+              title="NodeJS Certification"
+              description="This certification covers NodeJS server-side concepts, Express for web development, MongoDB, RESTful API creation, authentication, security, and backend-as-a-service approaches. It provides hands-on experience in backend development."
+              demoLink="https://coursera.org/share/844b60086e34221b969f5f8505172927"
             />
           </Col>
         </Row>

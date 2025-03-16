@@ -8,15 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Rohit Kumar Sinha </span>
-            from <span className="purple"> Bihar, India.</span>
-            <br />
-            I am currently employed as a software Engineer at Josh Software.
-            <br />
-            I have completed My MCA From D.Y. Patil Insistute Of MCA & MCA
+            Hey there! I'm <span className="purple">Rohit Kumar Sinha</span>, a Software Engineer passionate about building modern web applications.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I specialize in <b className="purple">React, Node.js, and AWS</b>, crafting scalable and efficient solutions.
+            <br />
+            <br />
+            Beyond coding, I enjoy:
           </p>
           <ul>
             <li className="about-activity">
@@ -26,12 +24,12 @@ function AboutCard() {
               <ImPointRight /> Writing Tech Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Travelling & Exploring
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Software engineering: where imagination meets innovation, crafting tomorrow's world, line by line!"{" "}
+            "Code. Create. Innovate. Turning ideas into reality one function at a time!"
           </p>
           <footer className="blockquote-footer">Rohit Kumar Sinha</footer>
         </blockquote>
